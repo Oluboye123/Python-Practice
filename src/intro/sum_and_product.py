@@ -15,4 +15,11 @@ def product(x: int, y: int, z: int):
     return multiply
 
 
+def average(x: int, y: int, z: int):
+    avg = sum(x, y, z)/3
+    return avg
+
+
 print(product(int(first_num), int(second_num), int(third_num)))
+print(average(int(first_num), int(second_num), int(third_num)))
+print(average(int(first_num), int(second_num), int(third_num)))
