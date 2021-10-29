@@ -21,5 +21,5 @@ def average(x: int, y: int, z: int):
 
 
 print(product(int(first_num), int(second_num), int(third_num)))
-print(average(int(first_num), int(second_num), int(third_num)))
+print(sum(int(first_num), int(second_num), int(third_num)))
 print(average(int(first_num), int(second_num), int(third_num)))
