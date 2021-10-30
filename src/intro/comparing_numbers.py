@@ -1,7 +1,7 @@
 def compare_numbers(x: int, y: int):
-    if first_num > second_num:
+    if x > y:
         print(first_num, "is greater than", second_num)
-    elif first_num < second_num:
+    elif x < y:
         print(second_num, "is greater than", first_num)
     else:
         print('Same numbers')
